@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Cinzel:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Changa One', cursive;
+    font-family: 'Cinzel', serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #9de5c2;
+}
+.contaniner{
+    width: 690px;
+    border-radius: 7px;
+    padding: 30px;
+    background: #e8edb6;
+}
+.wrapper{
+    border-radius: 7px;
+    border: 1px solid #a5a19c;
+}
+.wrapper .text-input{
+    display: flex;
+    border-bottom: 1px solid  #a5a19c;
+}
+.text-input .to-text{
+    border-radius: 0px;
+    border-left: 1px solid #a5a19c;
+}
+.text-input textarea{
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize:none;
+    font: 18px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background: none;
+}
+.controls{
+    list-style: none;
+    padding: 12px 15px;
+}
+.controls .row .from .icons{
+    padding-right: 15px;
+    border-right: 1px solid #e48006;
+}
+.controls .row .to .icons{
+    padding-left: 15px;
+    border-left: 1px solid #e48006;
+}
+.controls, li, .icons, .icons i{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.controls .icons{
+    width: 38%;
+}
+.controls .icons i {
+    width: 50px;
+    color: #010101;
+    font-size: 14px;
+    cursor: pointer;
+    justify-content: center;
+}
+.controls .row select{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: none;
+}
+.contaniner .exchange{
+    color: #010101;
+    font-size: 16px;
+    cursor: pointer;
+}
+.contaniner button{
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 7px;
+    background: #9de5c2;
+}
