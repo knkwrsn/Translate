@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Cinzel:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Berkshire+Swash&family=Changa+One&family=Cinzel:wght@500;700&family=Labrada:wght@100;200;400&family=PT+Sans&family=Yatra+One&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Bangers', cursive;
+    font-family: 'Berkshire Swash', cursive;
     font-family: 'Changa One', cursive;
     font-family: 'Cinzel', serif;
+    font-family: 'Labrada', serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Yatra One', cursive;
 }
 body{
     display: flex;
